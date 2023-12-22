@@ -1,19 +1,18 @@
 {
-	"values": [
-		"mmo:scoreboards/uninstall",
-		"mmo_quests:scoreboards/uninstall",
-		"mmo_attack:scoreboards/uninstall",
-		"mmo_defense:scoreboards/uninstall",
-		"mmo_cooking:scoreboards/uninstall",
-		"mmo_crafting:scoreboards/uninstall",
-		"mmo_excavation:scoreboards/uninstall",
-		"mmo_farming:scoreboards/uninstall",
-		"mmo_fishing:scoreboards/uninstall",
-		"mmo_hunter:scoreboards/uninstall",
-		"mmo_mining:scoreboards/uninstall",
-		"mmo_woodcutting:scoreboards/uninstall",
-		"mmo_hitpoints:scoreboards/uninstall",
-		"mmo_agility:scoreboards/uninstall",
-		"mmo_smithing:scoreboards/uninstall",
-	]
+  "values": [
+    "mmo:scoreboards/uninstall",
+    "mmo_attack:scoreboards/uninstall",
+    "mmo_defense:scoreboards/uninstall",
+    "mmo_cooking:scoreboards/uninstall",
+    "mmo_crafting:scoreboards/uninstall",
+    "mmo_excavation:scoreboards/uninstall",
+    "mmo_farming:scoreboards/uninstall",
+    "mmo_fishing:scoreboards/uninstall",
+    "mmo_hunter:scoreboards/uninstall",
+    "mmo_mining:scoreboards/uninstall",
+    "mmo_woodcutting:scoreboards/uninstall",
+    "mmo_hitpoints:scoreboards/uninstall",
+    "mmo_agility:scoreboards/uninstall",
+    "mmo_smithing:scoreboards/uninstall"
+  ]
 }

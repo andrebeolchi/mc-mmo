@@ -8,7 +8,6 @@
     "mmo:scoreboards/user/gui",
     "mmo:scoreboards/user/player_stats",
     "mmo:scoreboards/stat_experience",
-    "mmo_quests:scoreboards/install",
     "mmo_attack:scoreboards/install",
     "mmo_defense:scoreboards/install",
     "mmo_cooking:scoreboards/install",
