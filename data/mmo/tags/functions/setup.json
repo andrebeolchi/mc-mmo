@@ -12,6 +12,6 @@
     "mmo_woodcutting:core",
     "mmo_hitpoints:core",
     "mmo_agility:core",
-    "mmo_smithing:core",
+    "mmo_smithing:core"
   ]
 }
