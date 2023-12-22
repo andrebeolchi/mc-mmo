@@ -11,8 +11,8 @@ execute if score @s defense_lvl < lvl_20 defense_lvl run scoreboard players oper
 execute if score @s defense_lvl < lvl_20 defense_lvl run scoreboard players operation @s next_lvl -= @s defense_lvl
 
 #
-execute if score @s defense_lvl < lvl_20 defense_lvl run tellraw @s [{"text": "Unlocking Resistance I will be the next... ", "color": "gold"},{"score":{"name":"@s","objective":"next_lvl"}, "color":"dark_green", "bold": true},{"text": " lvls", "color": "green", "bold": true}]
-execute if score @s defense_lvl = lvl_20 defense_lvl run tellraw @s [{"text": "Unlocked Resistance I", "color": "yellow"}]
+execute if score @s defense_lvl < lvl_20 defense_lvl run tellraw @s [{"text": "Unlocking Shield Resistance I will be the next... ", "color": "gold"},{"score":{"name":"@s","objective":"next_lvl"}, "color":"dark_green", "bold": true},{"text": " lvls", "color": "green", "bold": true}]
+execute if score @s defense_lvl = lvl_20 defense_lvl run tellraw @s [{"text": "Unlocked Shield Resistance I", "color": "yellow"}]
 
 ############################################################################################
 	# Automate Leveling Up (40)
@@ -21,15 +21,45 @@ execute if score @s defense_lvl >= lvl_20 defense_lvl if score @s defense_lvl < 
 execute if score @s defense_lvl >= lvl_20 defense_lvl if score @s defense_lvl < lvl_40 defense_lvl run scoreboard players operation @s next_lvl -= @s defense_lvl
 
 #
-execute if score @s defense_lvl >= lvl_20 defense_lvl if score @s defense_lvl < lvl_40 defense_lvl run tellraw @s [{"text": "Unlocking Resistance II will be the next... ", "color": "gold"},{"score":{"name":"@s","objective":"next_lvl"}, "color":"dark_green", "bold": true},{"text": " lvls", "color": "green", "bold": true}]
-execute if score @s defense_lvl = lvl_40 defense_lvl run tellraw @s [{"text": "Unlocked Resistance II", "color": "yellow"}]
+execute if score @s defense_lvl >= lvl_20 defense_lvl if score @s defense_lvl < lvl_40 defense_lvl run tellraw @s [{"text": "Unlocking Shield Resistance II will be the next... ", "color": "gold"},{"score":{"name":"@s","objective":"next_lvl"}, "color":"dark_green", "bold": true},{"text": " lvls", "color": "green", "bold": true}]
+execute if score @s defense_lvl = lvl_40 defense_lvl run tellraw @s [{"text": "Unlocked Shield Resistance II", "color": "yellow"}]
+
+############################################################################################
+	# Automate Leveling Up (50)
+############################################################################################
+execute if score @s defense_lvl >= lvl_40 defense_lvl if score @s defense_lvl < lvl_50 defense_lvl run scoreboard players operation @s next_lvl = lvl_50 defense_lvl
+execute if score @s defense_lvl >= lvl_40 defense_lvl if score @s defense_lvl < lvl_50 defense_lvl run scoreboard players operation @s next_lvl -= @s defense_lvl
+
+#
+execute if score @s defense_lvl >= lvl_40 defense_lvl if score @s defense_lvl < lvl_50 defense_lvl run tellraw @s [{"text": "Unlocking Permanent Resistance I will be the next... ", "color": "gold"},{"score":{"name":"@s","objective":"next_lvl"}, "color":"dark_green", "bold": true},{"text": " lvls", "color": "green", "bold": true}]
+execute if score @s defense_lvl = lvl_50 defense_lvl run tellraw @s [{"text": "Unlocked Permanent Resistance I", "color": "yellow"}]
 
 ############################################################################################
 	# Automate Leveling Up (60)
 ############################################################################################
-execute if score @s defense_lvl >= lvl_40 defense_lvl if score @s defense_lvl < lvl_60 defense_lvl run scoreboard players operation @s next_lvl = lvl_60 defense_lvl
-execute if score @s defense_lvl >= lvl_40 defense_lvl if score @s defense_lvl < lvl_60 defense_lvl run scoreboard players operation @s next_lvl -= @s defense_lvl
+execute if score @s defense_lvl >= lvl_50 defense_lvl if score @s defense_lvl < lvl_60 defense_lvl run scoreboard players operation @s next_lvl = lvl_60 defense_lvl
+execute if score @s defense_lvl >= lvl_50 defense_lvl if score @s defense_lvl < lvl_60 defense_lvl run scoreboard players operation @s next_lvl -= @s defense_lvl
 
 #
-execute if score @s defense_lvl >= lvl_40 defense_lvl if score @s defense_lvl < lvl_60 defense_lvl run tellraw @s [{"text": "Unlocking Resistance III will be the next... ", "color": "gold"},{"score":{"name":"@s","objective":"next_lvl"}, "color":"dark_green", "bold": true},{"text": " lvls", "color": "green", "bold": true}]
-execute if score @s defense_lvl = lvl_60 defense_lvl run tellraw @s [{"text": "Unlocked Resistance III", "color": "yellow"}]
+execute if score @s defense_lvl >= lvl_50 defense_lvl if score @s defense_lvl < lvl_60 defense_lvl run tellraw @s [{"text": "Unlocking Shield Resistance III will be the next... ", "color": "gold"},{"score":{"name":"@s","objective":"next_lvl"}, "color":"dark_green", "bold": true},{"text": " lvls", "color": "green", "bold": true}]
+execute if score @s defense_lvl = lvl_60 defense_lvl run tellraw @s [{"text": "Unlocked Shield Resistance III", "color": "yellow"}]
+
+############################################################################################
+  # Automate Leveling Up (70)
+############################################################################################
+execute if score @s defense_lvl >= lvl_60 defense_lvl if score @s defense_lvl < lvl_70 defense_lvl run scoreboard players operation @s next_lvl = lvl_70 defense_lvl
+execute if score @s defense_lvl >= lvl_60 defense_lvl if score @s defense_lvl < lvl_70 defense_lvl run scoreboard players operation @s next_lvl -= @s defense_lvl
+
+#
+execute if score @s defense_lvl >= lvl_60 defense_lvl if score @s defense_lvl < lvl_70 defense_lvl run tellraw @s [{"text": "Unlocking Permanent Resistance II will be the next... ", "color": "gold"},{"score":{"name":"@s","objective":"next_lvl"}, "color":"dark_green", "bold": true},{"text": " lvls", "color": "green", "bold": true}]
+execute if score @s defense_lvl = lvl_70 defense_lvl run tellraw @s [{"text": "Unlocked Permanent Resistance II", "color": "yellow"}]
+
+############################################################################################
+  # Automate Leveling Up (100)
+############################################################################################
+execute if score @s defense_lvl >= lvl_70 defense_lvl if score @s defense_lvl < lvl_100 defense_lvl run scoreboard players operation @s next_lvl = lvl_100 defense_lvl
+execute if score @s defense_lvl >= lvl_70 defense_lvl if score @s defense_lvl < lvl_100 defense_lvl run scoreboard players operation @s next_lvl -= @s defense_lvl
+
+#
+execute if score @s defense_lvl >= lvl_70 defense_lvl if score @s defense_lvl < lvl_100 defense_lvl run tellraw @s [{"text": "Unlocking Permanent Resistance III will be the next... ", "color": "gold"},{"score":{"name":"@s","objective":"next_lvl"}, "color":"dark_green", "bold": true},{"text": " lvls", "color": "green", "bold": true}]
+execute if score @s defense_lvl = lvl_100 defense_lvl run tellraw @s [{"text": "Unlocked Permanent Resistance III", "color": "yellow"}]
