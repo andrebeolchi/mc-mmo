@@ -31,11 +31,6 @@ tellraw @s [{"text": "Smithing Level: ", "color": "light_purple"},{"score":{"nam
 tellraw @s [{"text": "Experience: "}, {"score":{"name": "@s", "objective":"smithing_exp"}, "color":"yellow"}, {"text": "/", "color": "white"}, {"score":{"name": "@s", "objective":"smithing_lvlup"}, "color":"dark_green"}, {"text": " EXP", "color":"green", "bold":true}]
 tellraw @s [{"text": ""}]
 
-# Magic Stat:
-tellraw @s [{"text": "Magic Level: ", "color": "blue"},{"score":{"name": "@s", "objective":"magic_lvl"},"color": "white", "bold":true}]
-tellraw @s [{"text": "Experience: "}, {"score":{"name": "@s", "objective":"magic_exp"}, "color":"yellow"}, {"text": "/", "color": "white"}, {"score":{"name": "@s", "objective":"magic_lvlup"}, "color":"dark_green"}, {"text": " EXP", "color":"green", "bold":true}]
-tellraw @s [{"text": ""}]
-
 ############################################################################################
 	# Page Navigation #
 ############################################################################################

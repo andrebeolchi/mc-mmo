@@ -282,8 +282,3 @@ scoreboard players set smith_diam_helm stats_experience 125
 scoreboard players set smith_diam_chest stats_experience 200
 scoreboard players set smith_diam_leg stats_experience 175
 scoreboard players set smith_diam_boots stats_experience 100
-
-############################################################################################
-	# Magic EXP: #
-############################################################################################
-scoreboard players set magic_auto_growth stats_experience 25

@@ -57,21 +57,6 @@ tellraw @s [{"text": ""}]
 
 
 ############################################################################################
-	# Magic World Gen Settings [Multiplayer] Settings: #
-############################################################################################
-execute as @s if score disable_magic_ability mmo_gamerules matches 0 run tellraw @s [{"text": "Custom Magic Trees: ", "color": "white", "bold":true},{"text":"[Enabled]","color":"green", "bold": false}]
-execute as @s if score disable_magic_ability mmo_gamerules matches 1 run tellraw @s [{"text": "Custom Magic Trees: ", "color": "white", "bold":true},{"text":"[Disabled]","color":"red", "bold": false}]
-
-# [Setting Description]:
-tellraw @s [{"text": "Removes mmo world generation magic such as, ['custom trees']", "color": "gray"}]
-
-# [Bonus EXP Toggle]:
-execute as @s if score disable_magic_ability mmo_gamerules matches 0 run tellraw @s [{"text": "- "},{"text":"[Disable Custom Magic Trees]","color":"red","clickEvent":{"action":"run_command","value":"/scoreboard players set disable_magic_ability mmo_gamerules 1"}}]
-execute as @s if score disable_magic_ability mmo_gamerules matches 1 run tellraw @s [{"text": "- "},{"text":"[Enable Custom Magic Trees]","color":"green","clickEvent":{"action":"run_command","value":"/scoreboard players set disable_magic_ability mmo_gamerules 0"}}]
-tellraw @s [{"text": ""}]
-
-
-############################################################################################
 	# Page Navigation #
 ############################################################################################
 tellraw @s [{"text": "Navigation", "color": "white", "bold":true}]

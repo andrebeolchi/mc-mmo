@@ -13,7 +13,6 @@
 		"mmo_hitpoints:core",
 		"mmo_agility:core",
 		"mmo_smithing:core",
-		"mmo_magic:core",
 		"mmo_quests:init"
 	]
 }
